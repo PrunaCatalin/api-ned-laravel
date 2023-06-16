@@ -1,0 +1,12 @@
+const @classNameRouter = {
+    path: '/@path/',
+    redirect : '/',
+    component: () => import('~/pages/LayoutPage'),
+    meta: {
+        requiresAuth: true,
+    },
+    children : [
+@childrenRouteComponent
+    ]
+}
+export default @classNameRouter

@@ -1,0 +1,3 @@
+class @classNameService {
+}
+export default new @classNameService()

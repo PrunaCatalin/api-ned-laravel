@@ -1,0 +1,16 @@
+{
+    "name": "FresciaStore",
+    "alias": "fresciastore",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FresciaStore\\Providers\\FresciaStoreServiceProvider"
+    ],
+    "migration": {
+        "seeds": [
+            "Modules\\FresciaStore\\Database\\Seeders\\FresciaStoreDatabaseSeeder"
+        ]
+    },
+    "files": []
+}

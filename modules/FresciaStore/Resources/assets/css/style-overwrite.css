@@ -1,0 +1,28 @@
+/*
+ * webdirect | style-overwrite.css
+ * https://www.webdirect.ro/
+ * Copyright 2023 Pruna Catalin Costin
+ * Email : office@webdirect.ro
+ * Type  : CSS
+ * Created on : 5/8/2023 9:56 PM
+*/
+.connect-block-element-EeWoW {
+    --connect-block-space: 12px;
+    margin: 0 -12px;
+}
+
+.et_element.connect-block-element-EeWoW > div,
+.et_element.connect-block-element-EeWoW > form.cart,
+.et_element.connect-block-element-EeWoW > .price {
+    margin: 0 12px;
+}
+
+.et_element.connect-block-element-EeWoW > .et_b_header-widget > div,
+.et_element.connect-block-element-EeWoW > .et_b_header-widget > ul {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.et_element.connect-block-element-EeWoW .widget_nav_menu .menu > li > a {
+    margin: 0 12px
+}

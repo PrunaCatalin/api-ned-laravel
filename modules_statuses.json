@@ -1,0 +1,6 @@
+{
+    "Admin": true,
+    "Customers": true,
+    "Tenants": false,
+    "FresciaStore": true
+}

@@ -1,0 +1,7 @@
+import { @classNameStore } from "./store/@classNameStore";
+import @classNameRouter from "./router";
+
+export default {
+    store : @classNameStore,
+    router : @classNameRouter
+};

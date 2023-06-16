@@ -1,0 +1,52 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch ",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@kooneko/livereload-webpack-plugin": "^1.2.1",
+        "@popperjs/core": "^2.10.2",
+        "axios": "^0.21",
+        "bootstrap": "^5.2.0",
+        "browser-sync": "^2.27.10",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "dotenv-webpack": "^8.0.1",
+        "laravel-mix": "^6.0.49",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "vue": "^3.2.36",
+        "vue-loader": "^16.8.1",
+        "vue-template-compiler": "^2.6.12",
+        "webpack-livereload-plugin": "^1.2.0"
+    },
+    "dependencies": {
+        "@kyvg/vue3-notification": "^2.4.1",
+        "cyd-vue-components": "^1.1.10",
+        "jquery": "^3.6.0",
+        "laravel-echo": "^1.13.1",
+        "laravel-vue-pagination": "^3.0.0",
+        "moment": "^2.29.4",
+        "pinia": "^2.0.23",
+        "popper.js": "^1.16.1",
+        "puppeteer": "^20.5.0",
+        "pusher-js": "^7.4.0",
+        "vue-axios": "^3.4.1",
+        "vue-icomoon": "^0.3.0",
+        "vue-loading-overlay": "5.0",
+        "vue-multiselect": "^2.1.6",
+        "vue-nprogress": "^0.2.0",
+        "vue-router": "^4.1.5",
+        "vue-toastification": "^2.0.0-rc.5",
+        "vue2-transitions": "^0.3.0",
+        "vuedraggable": "^4.1.0"
+    }
+}

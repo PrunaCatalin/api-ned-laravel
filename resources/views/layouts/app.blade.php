@@ -1,0 +1,1 @@
+@include('fresciastore::pages.index')

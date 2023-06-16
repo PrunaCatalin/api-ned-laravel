@@ -1,0 +1,24 @@
+<template>
+    <div>This is @childrenName child</div>
+</template>
+
+<script>
+import { @classNameStore } from '../../store/@classNameStore';
+export default {
+    name: "@childrenName",
+    components : {
+    },
+    setup() {
+        const @lowerClassNameStore = @classNameStore();
+        return { @lowerClassNameStore };
+    },
+    data() {
+        return {
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+</style>

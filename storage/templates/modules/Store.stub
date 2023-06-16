@@ -1,0 +1,12 @@
+import { defineStore } from 'pinia'
+import @classNameService from '../service/@classNameService'
+export const @classNameStore = defineStore('@classNameStore', {
+    state: () => ({
+        @className : {},
+        Filters : {
+            page : 1,
+            max_page : 10
+        }
+    }),
+    actions: {}
+});

@@ -1,0 +1,9 @@
+        {
+            path : "@routeChildName",
+            component :  () => import('./components/@childrenName'),
+            name : "@childrenName",
+            meta : {
+                requiresAuth: true,
+                prettyName: "@path-@routeChildName"
+            },
+        }

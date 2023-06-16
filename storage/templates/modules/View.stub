@@ -1,0 +1,27 @@
+<template>
+    @childrenComponentsClassWidget
+</template>
+
+<script>
+@importChildrenComponent
+import { @classNameStore } from '../store/@classNameStore';
+export default {
+    name: "@componentName",
+    components : {
+        @childrenComponentsClass
+    },
+    setup() {
+        const @lowerClassNameStore = @classNameStore();
+        return { @lowerClassNameStore };
+    },
+    data() {
+        return {
+            Filters : this.@lowerClassNameStore.Filters
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+</style>
