@@ -1,6 +1,6 @@
 <?php
 /*
- * salesforce-laravel | sanctum-refresh-token.php
+ * API NED CURIER | sanctum-refresh-token.php
  * https://www.webdirect.ro/
  * Copyright 2022 Pruna Catalin Costin
  * Email : office@webdirect.ro

@@ -21,7 +21,7 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        // \App\Http\Middleware\ForceJsonResponse::class,
+//        \App\Http\Middleware\ForceJsonResponse::class,
         \App\Http\Middleware\Cors::class,
 
     ];
@@ -70,8 +70,7 @@ class Kernel extends HttpKernel
         'cors' => \App\Http\Middleware\Cors::class,
         'json.force' => \App\Http\Middleware\JsonResponseMiddleware::class,
         'checkRole' => \App\Http\Middleware\CheckRoleMiddleware::class,
-        'auth.customer' =>  \Modules\FresciaStore\Http\Middleware\CheckCustomer::class,
-        'auth.admin' =>  \Modules\Admin\Http\Middleware\CheckAdmin::class,
-        'ajax' => \Modules\FresciaStore\Http\Middleware\EnsureIsAjaxRequest::class,
+        'auth.customer' =>  \Modules\NedCurier\Http\Middleware\CheckCustomer::class,
+        'ajax' => \Modules\NedCurier\Http\Middleware\EnsureIsAjaxRequest::class,
     ];
 }

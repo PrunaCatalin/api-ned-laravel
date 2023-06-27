@@ -2,7 +2,6 @@
 /public/build
 /public/hot
 /public/storage
-/storage/*.key
 /vendor
 .env
 .env.backup
@@ -12,5 +11,7 @@ Homestead.yaml
 auth.json
 npm-debug.log
 yarn-error.log
-/.idea
+/.ideaAPI NED CURIER
 /.vscode
+/storage/
+/.git

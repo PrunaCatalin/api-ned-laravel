@@ -18,6 +18,8 @@ return [
         'webdirect.test',
         'webdirect.ro',
         'erp.webdirect.ro',
+        'api-ned.test',
+        'api-ned.webdirect.ro',
     ],
 
     /**

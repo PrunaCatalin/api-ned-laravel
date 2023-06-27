@@ -1,7 +1,7 @@
 <?php
 
 /*
- * salesforce-laravel | StrMixin.php
+ * API NED CURIER | StrMixin.php
  * https://www.webdirect.ro/
  * Copyright 2022 Pruna Catalin Costin
  * Email : office@webdirect.ro

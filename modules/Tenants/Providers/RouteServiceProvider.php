@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $moduleNamespace = 'modules\Tenants\Http\Controllers';
+    protected $moduleNamespace = 'Modules\Tenants\Http\Controllers';
 
     /**
      * Called before routes are registered.
@@ -61,9 +61,18 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-        Route::prefix('api')
-            ->middleware('api')
-            ->namespace($this->moduleNamespace)
-            ->group(module_path('Tenants', '/Routes/api.php'));
+        foreach ($this->centralDomains() as $domain) {
+            Route::prefix('api')
+                ->domain($domain)
+                ->namespace($this->moduleNamespace)
+                ->group(function () {
+                    require base_path('routes/api.php');
+                    require base_path('routes/customer/common.php');
+                });
+        }
+    }
+    protected function centralDomains(): array
+    {
+        return config('tenancy.central_domains');
     }
 }
