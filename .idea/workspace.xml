@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbf1e1f5-7bbc-4902-9414-731aa52af3f9" name="Changes" comment="add mass">
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/components/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/components/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/about-us.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/homepage.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/NedCurier/Routes/pages/pages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Auth/CustomerAuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Routes/customer/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/Ana_M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/agrafa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/alexandru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ambalare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/appel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/bicicleta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cerc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/chitanta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/clopotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cont-client-li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cookies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/destinatari-li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/expeditori-li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook-logo-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/globe-track-awb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/google-logo-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/google.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/hero-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/log-in-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/premii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/preturi competitive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/preview 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/rapiditate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/roata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/search-awb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/servicii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/user-big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mixins/RouteMixin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mixins/RouteMixin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mixins/StrMixin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mixins/StrMixin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclGroupPermission.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclGroupRole.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclModulePermissionsRoute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclModules.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclOperations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Acl/AclRoles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Salesforce/SalesforceAccessTokens.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Salesforce/SalesforceUsers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Users/PersonalAccessToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Users/PersonalAccessToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/WdProductStats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/AppConfigServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/AppConfigServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/Tenant/TenantApiServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/Tenant/TenantApiServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/HasApiTokensTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/HasApiTokensTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/TenantResponseTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/TenantResponseTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sanctum-refresh-token.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/sanctum-refresh-token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/tenancy.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/tenancy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Config/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Console/RoutePermissionsCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Migrations/2023_06_01_202956_create_google_geo_id_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Migrations/2023_06_11_192622_add_columns_system_users_details.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Migrations/2023_06_11_211506_create_table_notification_preferences.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/Seeders/AdminDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Entities/GoogleGeoId.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Entities/NotificationPreference.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Account/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Acl/AclRolesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Auth/PermissionsRouteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Dashboard/GoogleAdwordsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/Dashboard/GoogleAnalyticsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/User/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Controllers/User/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Middleware/CheckAdmin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/AccountDetailsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/AccountRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/Acl/AclRolesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/Acl/GroupPermissionRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/ForgotPasswordRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/LoginRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/Requests/UserPasswordRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Http/View/Composers/AppAdminComposer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Providers/AdminServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/lang/en/forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/lang/en/messages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/lang/en/rules.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/components/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/components/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/components/left-menu.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/components/topbar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/layouts/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/layouts/outside.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/pages/account.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/pages/dashboard/google-adwords.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/pages/dashboard/google-analytics.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Resources/views/pages/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/Account/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/Acl/acl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/Apps/apps.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/Dashboard/dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/Users/user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Rules/DifferentFromCurrentPasswordRule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Admin/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Database/Seeders/CustomersDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Http/Controllers/CustomersController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Providers/CustomersServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Routes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Customers/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Config/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Config/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Console/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Contracts/ProductImportInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/2023_05_12_154849_add_new_on_app_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/customer/2023_05_12_215820_create_customers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/customer/2023_05_13_195410_create_customer_details.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/customer/2023_05_13_195435_create_customer_companies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/customer/2023_05_13_195459_create_customer_addresses.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/customer/2023_05_13_195520_create_customer_wishlist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/location/2023_05_14_214324_create_generic_countries_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/location/2023_05_14_214409_create_generic_county_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/location/2023_05_14_214551_create_generic_cities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_084227_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_084747_create_suppliers_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_084810_create_stocks_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_090734_create_histories_price_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_091356_create_product_images_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Migrations/product/2023_05_15_091642_create_product_seo_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/FresciaStoreDatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/customer/CustomerAddressesSeederTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/customer/CustomerDetailsSeederTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/customer/CustomerTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/Seeders/customer/CustomerWishlistSeederTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/CustomerAddressesFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/CustomerCompaniesFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/CustomerDetailsFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/CustomerFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Database/factories/CustomerWishlistFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Emails/ContactMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Customer/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Customer/CustomerAddresses.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Customer/CustomerCompanies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Customer/CustomerDetails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Customer/CustomerWishlist.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Location/GenericCities.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Location/GenericCountries.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Location/GenericCounty.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Product/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Product/ProductCategories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Product/ProductImages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Product/ProductSeo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Stock/StocksProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Entities/Stock/SuppliersProducts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/Auth/CustomerAuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/ContactController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/CookieController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/FresciaStoreController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/Shop/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/Shop/ProductCategoriesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/Shop/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Controllers/Shop/ShopController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Middleware/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Middleware/AgeCheckMiddleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Middleware/CheckCustomer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Middleware/EnsureIsAjaxRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Requests/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Requests/ContactRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Requests/CustomerLoginRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Requests/Shop/AddToCartRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/Requests/Shop/ShopRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Http/View/Composers/AppCompanyDetailsComposer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Providers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Providers/FresciaStoreServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/fresciastore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/fresciastore.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/style-overwrite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/css/style-overwrite.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/js/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/js/bootstrap/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/js/bootstrap/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/assets/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/lang/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/lang/en/messages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/emails/contact-template.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/layouts/master.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/pages/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/pages/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/shop/shop-category.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/shop/shop-page.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/shop/shop-products-grid.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Resources/views/shop/shop-products-pagination.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/client-area/customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/client-area/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/pages/pages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/shop/shop.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/ConfigService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/GoogleService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/Import/FresciaStoreService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/Product/ProductService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/SupplierProductService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/ToolsServices.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Services/UploadProductImageService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Tests/Feature/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/Tests/Unit/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/FresciaStore/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Account_components_AccountComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Account_components_AccountComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1320.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1320.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1321.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1321.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a50.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a50.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a51.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a51.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigSidebar_ConfigSidebarComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigSidebar_ConfigSidebarComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_CpanelComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_CpanelComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Configuration_ConfigurationComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Configuration_ConfigurationComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Players_PlayersComponent_vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Players_PlayersComponent_vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/css/icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/atom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/blocks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/cobweb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/feather.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/feather.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/feather.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/la-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/materialdesignicons-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/materialdesignicons-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/materialdesignicons-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/materialdesignicons-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/materialdesignicons-webfont_1.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/rgb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/tabler-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/tabler-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/tabler-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/tabler-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/fonts/tabler-icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/bg-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/chrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/french_flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/germany_flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/in-explorer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/logo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/logo-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/micro-edge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/opera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/p-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/spain_flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/us_flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/user-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/user-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/user-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/user-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/images/user-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/bootstrap/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/bootstrap/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/bootstrap/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDAxios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDGoogle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/core/WDUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/plugins/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/js/plugins/simplebar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/admin/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/auth/auth.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/auth/auth.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/contact/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/contact/contact.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/fontawesome/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/fontawesome/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/fresciastore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/fresciastore.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/kirki-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/kirki-styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/search.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/shop/shop-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/shop/shop-page.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/style-overwrite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/style-overwrite.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCFPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCGPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCHPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCIPrcVIT9d4cw.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pbCMPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCFPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCGPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCHPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrcVIT9d4cw.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCMPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCFPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCGPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCHPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrcVIT9d4cw.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/fonts/raleway/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCMPrcVIT9d4cydYA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/Logo-alb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/anpc-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-kit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-le.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-limited-edition-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-limited-edition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-select.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/box-selection.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/contact-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/despre-noi-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/despre-noi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/faq-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/favicon.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/gift-card-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/gift-card.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/locatie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/logo-jos-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/logo-jos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/masina-transport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/masina-transport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/pliant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/revista-header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/sol-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/tel-contact.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/images/video-preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/bootstrap/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/bootstrap/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/bootstrap/popper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDAxios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDLog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/core/WDUtils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/fontawesome/fontawesome.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/fontawesome/solid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/shop/shop-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/slider/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/js/slider/sliderTweenMax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modules/fresciastore/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/customer/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/customer/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/eventstream/eventstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/eventstream/eventstream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/5e/dd/5edd8349a61e61755a6bc3c63536ca3b0a1b3024" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/ca/78/ca7898b7ce414810a7763ac84dba86513246b07e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/d1/38/d1387f513f08dfcfd185f5aea949b23217286359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/modules/Tenants/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/daverandom/libdns" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/revolt/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/graylog2/gelf-php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/thiagoalessio/tesseract_ocr" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/needim/noty" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/hedii/laravel-gelf-logger" />
+      <path value="$PROJECT_DIR$/vendor/studio/laravel-totem" />
+      <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/stancl/virtualcolumn" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/stancl/tenancy" />
+      <path value="$PROJECT_DIR$/vendor/stancl/jobpipeline" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/owen-it/laravel-auditing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/kelunik/certificate" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/amphp/serialization" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parallel" />
+      <path value="$PROJECT_DIR$/vendor/amphp/windows-registry" />
+      <path value="$PROJECT_DIR$/vendor/amphp/socket" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/amphp/sync" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/amphp/dns" />
+      <path value="$PROJECT_DIR$/vendor/krlove/eloquent-model-generator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/krlove/code-generator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parser" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/amphp/cache" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/amphp/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/vendor/amphp/process" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/laracademy/generators" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2RHunCh2aObmODlRcAtug3DDrvw" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/htdocs/api-ned/public/modules/nedcurier/css/components/bootstrap-icons",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\css\components\bootstrap-icons" />
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\css\components" />
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\js\components" />
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\sass" />
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\fonts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbf1e1f5-7bbc-4902-9414-731aa52af3f9" name="Changes" comment="" />
+      <created>1686919492748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686919492748</updated>
+      <workItem from="1686919493731" duration="3869000" />
+      <workItem from="1687158467092" duration="2007000" />
+      <workItem from="1687761016266" duration="1227000" />
+      <workItem from="1687762263700" duration="2096000" />
+      <workItem from="1687809118023" duration="3540000" />
+      <workItem from="1687844563586" duration="4504000" />
+      <workItem from="1687848236848" duration="27542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="cac8e072-4927-46b1-a12c-860777c6f33a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="cac8e072-4927-46b1-a12c-860777c6f33a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mass" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mass" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

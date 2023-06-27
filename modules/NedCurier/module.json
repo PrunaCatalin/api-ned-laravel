@@ -1,0 +1,11 @@
+{
+    "name": "NedCurier",
+    "alias": "nedcurier",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\NedCurier\\Providers\\NedCurierServiceProvider"
+    ],
+    "files": []
+}
