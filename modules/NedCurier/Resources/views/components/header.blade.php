@@ -38,7 +38,7 @@
                 <li><a class="nav-link scrollto" href="{{route('page.frequent_questions')}}">Suport</a></li>
                 <li><a class="nav-link scrollto" href="{{route('page.contact')}}">Contacts</a></li>
                 <li>
-                    <a class="getstarted scrollto" href="log-in.php">Log In</a>
+                    <a class="getstarted scrollto" href="{{ route('page.login') }}">Log In</a>
                 </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

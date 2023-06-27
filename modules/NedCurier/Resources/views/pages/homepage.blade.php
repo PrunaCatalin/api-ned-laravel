@@ -27,7 +27,7 @@
                         specializată în livrarea promptă și eficientă a coletelor.
                     </h2>
                     <div class="d-flex">
-                        <a href="#about" class="btn-get-started scrollto">Awb tracking</a>
+                        <a href="{{ route('page.awb_tracking') }}" class="btn-get-started scrollto">Awb tracking</a>
                         <a
                             href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
                             class="glightbox btn-watch-video"
@@ -76,7 +76,7 @@
                                 facem fata oricaror cerinte de livrare.
                             </p>
                             <div class="services-btn-wrap">
-                                <a href="/" class="btn-get-started">Află mai multe</a>
+                                <a href="{{ route('page.speed_and_efficiency') }}" class="btn-get-started">Află mai multe</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                                 bugetului tau.
                             </p>
                             <div class="services-btn-wrap">
-                                <a href="/" class="btn-get-started">Află mai multe</a>
+                                <a href="{{ route('page.competitive_prices') }}" class="btn-get-started">Află mai multe</a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                                 nevoilor si cerintelor lor individuale.
                             </p>
                             <div class="services-btn-wrap">
-                                <a href="/" class="btn-get-started">Află mai multe</a>
+                                <a href="{{ route('page.personalized_services') }}" class="btn-get-started">Află mai multe</a>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                             cutia este suficient de mare pentru a încăpea conținutul, dar nu
                             prea mare, astfel încât să nu se miște în interiorul cutiei...
                         </p>
-                        <a href="/" class="btn-get-started black">Află mai multe</a>
+                        <a href="{{ route('page.packing_tips') }}" class="btn-get-started black">Află mai multe</a>
                     </div>
                     <div class="col-lg-6 d-flex justify-flex-end">
                         <img
@@ -162,7 +162,7 @@
                             șansa de a obține beneficii pentru fiecare colet expediat cu
                             noi.
                         </p>
-                        <a href="/" class="btn-get-started black">Află mai multe</a>
+                        <a href="{{ route('page.ship_and_win_prizes') }}" class="btn-get-started black">Află mai multe</a>
                     </div>
                     <div class="col-lg-6 d-flex justify-flex-end pd-special only-on-phone">
                         <img src="{{ asset('modules/nedcurier/img/premii.png') }}" class="img-fluid" alt="" />
