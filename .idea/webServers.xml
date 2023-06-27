@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="58c3b4b0-d9ef-4177-9544-d526b1b8ab3b" name="api-ned.webdirect.ro" url="http://api-ned.webdirect.ro">
+        <fileTransfer host="api-ned.webdirect.ro" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
