@@ -23,7 +23,7 @@
             </div>
         </section>
 
-        <section id="about" class="about track-the-expedition " >
+        <section id="page-content" class="page-content track-the-expedition " >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12  pt-lg-0 content">

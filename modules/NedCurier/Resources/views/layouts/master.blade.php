@@ -27,11 +27,13 @@
             href="{{ asset('modules/nedcurier/css/components/bootstrap/css/bootstrap.min.css') }}"
             rel="stylesheet"
         />
-        <link
-            href="{{ asset('modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.css') }}"
-            rel="stylesheet"
-        />
-        <link href="{{ asset('modules/nedcurier/css/components/boxicons/css/boxicons.min.css') }}" rel="stylesheet" />
+{{--        <link--}}
+{{--            href="{{ asset('modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.min.css') }}"--}}
+{{--            rel="stylesheet"--}}
+{{--        />--}}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+{{--        <link href="{{ asset('modules/nedcurier/fonts/bootstrap-icons.woff') }}" rel="application/font-woff" />--}}
+{{--        <link href="{{ asset('modules/nedcurier/fonts/bootstrap-icons.woff2') }}" rel="application/font-woff" />--}}
         <link
             href="{{ asset('modules/nedcurier/css/components/glightbox/css/glightbox.min.css') }}"
             rel="stylesheet"
@@ -41,6 +43,7 @@
         <link rel="stylesheet" href="{{ asset('modules/nedcurier/css/app.css') }}">
         {{-- Laravel Vite - CSS File --}}
        {{-- {{ module_vite('build-nedcurier', 'Resources/assets/sass/app.scss') }} --}}
+{{--        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">--}}
         @yield('styles')
     </head>
     <body>
@@ -68,6 +71,7 @@
         <script src="{{ asset('modules/nedcurier/js/components/swiper/swiper-bundle.min.js') }}"></script>
         <script src="{{ asset('modules/nedcurier/js/components/php-email-form/validate.js') }}"></script>
         <script src="{{ asset('modules/nedcurier/js/app.js') }}"></script>
+{{--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>--}}
 
 
         @yield('scripts')

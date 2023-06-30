@@ -1,13 +1,14 @@
 <?php
 /*
- * api-ned | homepage.php
+ * api-ned | home-page-client.blade.php
  * https://www.webdirect.ro/
  * Copyright 2023 Eugen Buiac
  * Email : office@webdirect.ro
  * Type  : PHP
- * Created on : 6/27/2023 9:23 AM
+ * Created on : 6/28/2023 9:47 AM
 */
 ?>
+
 @extends('nedcurier::layouts.master')
 {{--@section('styles')--}}
 {{--    <link rel="stylesheet" href="{{ asset('modules/nedcurier/css/test.min.css') }}">--}}
@@ -36,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
-                    <img src="{{ asset('modules/nedcurier/img/truck.png') }}" class="img-fluid animated" alt="" />
+                    <img src="{{ asset('modules/nedcurier/img/truck.png') }}" class="img-fluid animated" alt=""/>
                 </div>
             </div>
         </div>
@@ -46,84 +47,32 @@
 
 
     <main id="main">
-        <!-- =======De ce să alegi Ned Section ======= -->
-        <section id="featured-services" class="featured-services">
+
+        <!-- ======= Generate AWB Section ======= -->
+        <section id="page-content" class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="title-wrap">
-                        <h2 class="text-center">De ce să alegi Ned ?</h2>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                        <h2>Genereaza AWB</h2>
+                        <p class="description">
+                            Pentru a trimite o expeditie, este necesar sa generati un awb...
+                        </p>
+                        <a href="{{ route('page.generate_awb') }}" class="btn-get-started black">Genereaza awb</a>
                     </div>
-                    <p class="ned-description text-center">
-                        In concluzie, NED este partenerul de incredere pe care il cauti
-                        pentru servicii de curierat rapide, eficiente si personalizate, la
-                        un pret bun. Contacteaza-ne astazi pentru a afla mai multe despre
-                        cum putem ajuta afacerea ta sau pentru a solicita o oferta
-                        personalizata!
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="icon-box">
-                            <div class="icon">
-                                <img src="{{ asset('modules/nedcurier/img/rapiditate.jpg') }}" />
-                            </div>
-                            <h4 class="title">Rapiditate si eficienta</h4>
-                            <p class="description">
-                                NED se concentreaza pe oferirea serviciilor de livrare rapida
-                                si eficienta, asigurandu-se ca pachetele tale ajung la
-                                destinatie in timp util. Cu o flota de vehicule moderne si o
-                                echipa de profesionisti bine pregatiti, suntem pregatiti sa
-                                facem fata oricaror cerinte de livrare.
-                            </p>
-                            <div class="services-btn-wrap">
-                                <a href="{{ route('page.speed_and_efficiency') }}" class="btn-get-started">Află mai multe</a>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 d-flex justify-flex-end">
+                        <img
+                            src="{{ asset('modules/nedcurier/img/curierat.png') }}"
+                            class="img-fluid advice-img"
+                            alt=""
+                        />
                     </div>
-                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                        <div class="icon-box">
-                            <div class="icon">
-                                <img src="{{ asset('modules/nedcurier/img/preturi competitive.jpg') }}" />
-                            </div>
-                            <h4 class="title">Preturi competitive</h4>
-                            <p class="description">
-                                La NED, suntem dedicati sa oferim servicii de curierat de
-                                inalta calitate la preturi competitive. Fie ca este vorba
-                                despre livrarea unui document important sau a unui colet mai
-                                mare, putem oferi solutii de livrare adaptate nevoilor tale si
-                                bugetului tau.
-                            </p>
-                            <div class="services-btn-wrap">
-                                <a href="{{ route('page.competitive_prices') }}" class="btn-get-started">Află mai multe</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                        <div class="icon-box">
-                            <div class="icon">
-                                <img src="{{ asset('modules/nedcurier/img/servicii.png') }}" />
-                            </div>
-                            <h4 class="title">Servicii personalizate</h4>
-                            <p class="description">
-                                La NED, suntem mandri sa oferim servicii personalizate pentru
-                                fiecare client in parte. Suntem dedicati sa pastram clientii
-                                multumiti prin comunicare transparenta si prin abordarea
-                                nevoilor si cerintelor lor individuale.
-                            </p>
-                            <div class="services-btn-wrap">
-                                <a href="{{ route('page.personalized_services') }}" class="btn-get-started">Află mai multe</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
-        <!-- End FDe ce să alegi Ned Section -->
+        <!-- End Generate AWB Section -->
 
 
-        <!-- ======= Primii pasi Section ======= -->
+        <!-- ======= List AWB Section ======= -->
         <section id="page-content" class="page-content">
             <div class="container">
                 <div class="row">
@@ -135,34 +84,31 @@
                         />
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h2>Primii pasi</h2>
+                        <h2>Lista AWB</h2>
                         <p class="description">
-                            Primii pasi...
+                            Pentru a urmari awb-urile dvs...
                         </p>
-                        <a href="{{ route('page.first_steps') }}" class="btn-get-started black">Află mai multe</a>
+                        <a href="{{ route('page.list_awb') }}" class="btn-get-started black">List awb</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Primii pasi Section -->
+        <!-- End List AWB Section -->
 
-        <!-- ======= Sfaturi de ambalare Section ======= -->
+        <!-- ======= List Slip Section ======= -->
         <section id="page-content" class="page-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h2>Sfaturi de ambalare</h2>
+                        <h2>Lista borderou</h2>
                         <p class="description">
-                            Folosește o cutie rezistentă: Alege o cutie cu pereți groși și
-                            rezistenți pentru a proteja conținutul pachetului. Asigură-te că
-                            cutia este suficient de mare pentru a încăpea conținutul, dar nu
-                            prea mare, astfel încât să nu se miște în interiorul cutiei...
+                            Pentru a urmari borderourile dvs...
                         </p>
-                        <a href="{{ route('page.packing_tips') }}" class="btn-get-started black">Află mai multe</a>
+                        <a href="{{ route('page.list_slip') }}" class="btn-get-started black">Lista borderou</a>
                     </div>
                     <div class="col-lg-6 d-flex justify-flex-end">
                         <img
-                            src="{{ asset('modules/nedcurier/img/ambalare.png') }}"
+                            src="{{ asset('modules/nedcurier/img/curierat.png') }}"
                             class="img-fluid advice-img"
                             alt=""
                         />
@@ -170,33 +116,32 @@
                 </div>
             </div>
         </section>
-        <!-- End Sfaturi de ambalare Section -->
+        <!-- End List Slip Section -->
 
-
-        <!-- ======= Trimite cu ned Section ======= -->
-        <section id="page-content" class="winners">
+        <!-- ======= List Price Section ======= -->
+        <section id="page-content" class="page-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-flex justify-flex-end pd-special">
-                        <img src="{{ asset('modules/nedcurier/img/premii.png') }}" class="img-fluid" alt="" />
+                    <div class="col-lg-6 d-flex justify-flex-end">
+                        <img
+                            src="{{ asset('modules/nedcurier/img/curierat.png') }}"
+                            class="img-fluid advice-img"
+                            alt=""
+                        />
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <h2>Trimite cu Ned și câștigă premii...</h2>
+                        <h2>Lista preturi</h2>
                         <p class="description">
-                            Trimite cu Ned și câștigă premii atractive! Suntem bucuroși să
-                            îți prezentăm noul nostru program de recompense, care îți oferă
-                            șansa de a obține beneficii pentru fiecare colet expediat cu
-                            noi.
+                            Pentru a urmari lista de preturi...
                         </p>
-                        <a href="{{ route('page.ship_and_win_prizes') }}" class="btn-get-started black">Află mai multe</a>
-                    </div>
-                    <div class="col-lg-6 d-flex justify-flex-end pd-special only-on-phone">
-                        <img src="{{ asset('modules/nedcurier/img/premii.png') }}" class="img-fluid" alt="" />
+                        <a href="{{ route('page.list_price') }}" class="btn-get-started black">Lista preturi</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Trimite cu ned Section -->
+        <!-- End List Price Section -->
+
+
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
             <div class="container">
@@ -304,3 +249,5 @@
 @section('scripts')
 
 @endsection
+
+

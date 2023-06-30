@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "@kyvg/vue3-notification": "^2.4.1",
+        "bootstrap-icons": "^1.10.5",
         "cyd-vue-components": "^1.1.10",
         "jquery": "^3.6.0",
         "laravel-echo": "^1.13.1",

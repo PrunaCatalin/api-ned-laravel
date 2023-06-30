@@ -85,6 +85,36 @@ h1, h2, h3, h4, h5, h6 {
    max-width: 1160px;
  }
 }
+
+/*-------------------------------------------------------------- # Table --------------------------------------------------------------*/
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6e6e6;
+}
+
+
 /*-------------------------------------------------------------- # Header --------------------------------------------------------------*/
 #header {
  background: #fff;
@@ -1701,6 +1731,14 @@ h2.contact-us-title-on-the-contact-form-on-faq-page{
  border: 0px;
 }
 
+.long-expedition-option input,
+.livrare-dimineata input{
+    float: right;
+    margin-bottom: 32px;
+    margin-top: 15px;
+    border: 0px;
+}
+
 .long-expedition-option
 {
   margin-top: 50px;
@@ -1756,7 +1794,6 @@ h2.contact-us-title-on-the-contact-form-on-faq-page{
   }
 
 
-
   .livrare-sambata .livrare-sambata-child {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1768,7 +1805,6 @@ h2.contact-us-title-on-the-contact-form-on-faq-page{
 
 
   }
-
 
   .livrare-sambata .livrare-sambata-child:hover {
     background: #FCEE21!important;
@@ -1782,7 +1818,35 @@ h2.contact-us-title-on-the-contact-form-on-faq-page{
     justify-content: center!important;
   }
 
+.livrare-dimineata .livrare-dimineata-child {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 31px!Important;
+    padding-bottom: 31px !important;
 
+
+}
+
+.livrare-dimineata .livrare-dimineata-child:hover {
+    background: #FCEE21!important;
+    border-radius: 29px!important;
+
+}
+
+.livrare-dimineata .livrare-dimineata-child.active {
+    background: #FCEE21!important;
+    border-radius: 29px!important;
+    justify-content: center!important;
+}
+
+
+.expeditor-details .row input {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
 
 
   .expeditor-details h2{
@@ -2325,4 +2389,69 @@ p.user-id {
 .user{
   margin-left: 0%;
 }
+}
+
+/*-------------------------------------------------------------- # Page Content  --------------------------------------------------------------*/
+.page-content {
+    padding-top: 0;
+}
+
+.page-content, section {
+    padding-top: 0;
+}
+
+.page-content h2 {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 60px;
+    color: #25282e;
+    margin-bottom: 30px;
+}
+.page-content .advice-img {
+    display: block;
+    margin: 0 auto;
+}
+.page-content .description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.page-content .content h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #5f687b;
+}
+.page-content .content ul {
+    list-style: none;
+    padding: 0;
+}
+.page-content .content ul li {
+    padding-bottom: 10px;
+}
+.page-content .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #25282e;
+}
+.page-content .content p:last-child {
+    margin-bottom: 0;
+}
+.page-content-title{
+    /*margin-top:80px!important;*/
+    /*margin-bottom:46px!important;*/
+}
+.page-content-global{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 42px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.page-content-sign{
+    float: right;
+    /*margin-top: 78px;*/
+    /*margin-bottom: 272px;*/
+    margin-right: 10%;
 }

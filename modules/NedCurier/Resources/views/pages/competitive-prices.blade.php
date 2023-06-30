@@ -23,12 +23,12 @@
             </div>
         </section>
 
-        <section id="about" class="about " >
+        <section id="page-content" class="page-content " >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12  pt-lg-0 content">
-                        <h2 class="about-us-title">Competitive Prices</h2>
-                        <p class="description about-us-content">
+                        <h2 class="page-content-title">Competitive Prices</h2>
+                        <p class="description page-content-global">
                             Ned (Network Express Deliveries) este o companie de curierat înființată recent în România, care se angajează să ofere servicii rapide și eficiente de livrare a coletelor în toată țara. Ned își propune să fie o soluție fiabilă pentru clienții săi, indiferent de mărimea sau destinația coletelor.
                             <br><br>
                             Cu o rețea vastă de centre de distribuție și parteneriate cu transportatori de încredere, Ned are capacitățile necesare pentru a oferi livrare rapidă, sigură și convenabilă. Indiferent dacă doriți să trimiteți un pachet la o adresă din orașul dvs. sau într-un colț îndepărtat al țării, Ned se angajează să ofere o experiență de livrare fără probleme și să răspundă nevoilor dumneavoastră individuale.
@@ -38,7 +38,7 @@
                             În concluzie, Ned este o alegere excelentă pentru cei care caută un curier de încredere, cu o rețea extinsă de distribuție, o experiență de livrare fără probleme și servicii personalizate pentru nevoile individuale ale clienților.
                         </p>
 
-                        <img class="about-us-sign" src="{{ asset('modules/nedcurier/img/ned-sign.png') }}">
+                        <img class="page-content-sign" src="{{ asset('modules/nedcurier/img/ned-sign.png') }}">
                     </div>
                 </div>
             </div>

@@ -1,5 +1,11 @@
 var App = ns("NSWD.App");
 
+// App.loadObjects = function () {
+// };
+//
+// NSWD.Loader.windowReady(App.loadObjects);
+
+
 App.Loader = {
     windowReady: function () {
         (function () {
@@ -340,13 +346,26 @@ App.Loader = {
             });
         }
 
-        // HERE YOU HAVE THE CODE FOR CREATE THE ACTIVE CLASS ON CLICKING ON Livrare Sambata ON ESTIMARE COST
+        // HERE YOU HAVE THE CODE FOR CREATE THE ACTIVE CLASS ON CLICKING ON Personalizat ON ESTIMARE COST Volumetrica
+        const radioInputVolume = document.getElementById('option8');
+        const longExpeditionOptionVolume = document.querySelector('.long-expedition-option');
+
+        if (radioInputVolume) {
+            radioInputVolume.addEventListener('change', function () {
+                if (this.checked) {
+                    longExpeditionOptionVolume.classList.add('active');
+                } else {
+                    longExpeditionOptionVolume.classList.remove('active');
+                }
+            });
+        }
+
+        // HERE YOU HAVE THE CODE FOR CREATE THE ACTIVE CLASS ON CLICKING ON Livrare Sambata/Dimineata ON ESTIMARE COST
         const radioInputDoi = document.getElementById('option6');
         const livrareSambata = document.querySelector('.livrare-sambata');
 
         if (radioInputDoi && livrareSambata) {
             const livrareSambataChild = livrareSambata.querySelector('.livrare-sambata-child');
-
             radioInputDoi.addEventListener('change', function () {
                 if (this.checked) {
                     livrareSambataChild.classList.add('active');
@@ -355,10 +374,36 @@ App.Loader = {
                 }
             });
         }
+
+        const radioInputTrei = document.getElementById('option7');
+        const livrareDimineata = document.querySelector('.livrare-dimineata');
+
+        if (radioInputTrei && livrareDimineata) {
+            const livrareDimineataChild = livrareDimineata.querySelector('.livrare-dimineata-child');
+            radioInputTrei.addEventListener('change', function () {
+                if (this.checked) {
+                    livrareDimineataChild.classList.add('active');
+                } else {
+                    livrareDimineataChild.classList.remove('active');
+                }
+            });
+        }
+
+        if (document.querySelector('#accept-cookies')) {
+            document.querySelector('#accept-cookies').addEventListener('click', function () {
+                NSWD.WDAxios.post(APP_URL + "/accept-cookies", {}).then(function (response) {
+                    document.querySelector('.cookie-banner').remove();
+                }).catch(function (error) {
+                    NSWD.Log(error);
+                });
+            });
+        }
+
     },
 
-
 };
+
+
 
 
 App.Loader.windowReady();

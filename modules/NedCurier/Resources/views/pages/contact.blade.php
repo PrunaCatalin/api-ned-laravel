@@ -23,7 +23,7 @@
             </div>
         </section>
 
-        <section id="about" class="about contact-us" >
+        <section id="page-content" class="page-content contact-us" >
             <div class="container"><div class="row">
                     <div class="col-lg-5 d-flex align-items-stretch">
                         <div class="info">
