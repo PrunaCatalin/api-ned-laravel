@@ -363,25 +363,28 @@
                                                             LIVRARE</h2>
                                                     </div>
                                                     <div class="mb-3">
+
                                                         <div class="form-row">
                                                             <div class="col awb-info">
-                                                                <div class="section-title">CONTINUT</div>
 
-                                                                <!--Service select for AWB create-->
-                                                                <div class="form-row">
-                                                                    <div class="form-group col-md-4 fs-14">
-                                                                        Servicii
-                                                                    </div>
-                                                                    <div class="form-group col-md-8">
-                                                                        <select class="chosen-select"
-                                                                                id="service_name" name="">
-                                                                            <option value=""></option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                                                                <!--\.Service select for AWB create-->
 
+                                                                <!--Begin Content-->
                                                                 <div class="form-row">
+                                                                    <div class="section-title">CONTINUT</div>
+                                                                    <!--Service select for AWB create-->
+                                                                    <div class="form-row">
+                                                                        <div class="form-group col-md-4 fs-14">
+                                                                            Servicii
+                                                                        </div>
+                                                                        <div class="form-group col-md-8">
+                                                                            <select class="chosen-select"
+                                                                                    id="service_name" name="">
+                                                                                <option value=""></option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--\.Service select for AWB create-->
+
                                                                     <div class="form-group col-md-2 fs-14">
                                                                         <label for="details_package">Colete:</label>
                                                                     </div>
@@ -421,9 +424,11 @@
                                                                         />
                                                                     </div>
                                                                 </div>
-                                                                <div class="section-title">DIMENSIUNI</div>
+                                                                <!--\.End content-->
 
+                                                                <!--Begin dimension-->
                                                                 <div class="form-row">
+                                                                    <div class="section-title">DIMENSIUNI</div>
                                                                     <div class="form-group col-md-2 fs-14">
                                                                         <label for="details_height">Inaltime
                                                                             pachet:</label>
@@ -461,6 +466,9 @@
                                                                                placeholder="0" required/>
                                                                     </div>
                                                                 </div>
+                                                                <!--\.End Dimension-->
+
+                                                                <!--Start Value-->
                                                                 <div class="form-row">
                                                                     <div class="form-group col-md-6 fs-14">
                                                                         <label for="details_valDeclared">Valoare
@@ -504,9 +512,10 @@
                                                                                value=""/>
                                                                     </div>
                                                                 </div>
+                                                                <!--\.End Value-->
 
+                                                                <!--Begin parcel details-->
                                                                 <div class="form-row">
-
                                                                     <div class="form-group col-md-2 fs-14">
                                                                         <label for="details_openpackage">Deschidere
                                                                             Colet:</label>
@@ -549,9 +558,7 @@
                                                                         />
                                                                     </div>
 
-                                                                </div>
 
-                                                                <div class="form-row">
                                                                     <div class="form-group col-md-6 fs-14">
                                                                         <label for="details_shipmentPayer">Platitor
                                                                             Transport:</label>
@@ -564,162 +571,178 @@
                                                                                value="" readonly/>
                                                                     </div>
                                                                 </div>
+                                                                <!--\.End parcel details-->
 
-                                                                <div class="section-title">OBSERVATII</div>
+
+                                                                <!--Begin Observation-->
                                                                 <div class="form-row">
+                                                                    <div class="section-title">OBSERVATII</div>
                                                                     <div class="form-group col-md-2 fs-14">
                                                                         <label
                                                                             for="details_observation">Observatii:</label>
                                                                     </div>
                                                                     <div class="form-group col-md-10">
-                                                                        <textarea type="text"
-                                                                                  class="form-control"
-                                                                                  id="details_observation"
-                                                                                  name=""
-                                                                                  value=""
-                                                                                  placeholder="Observatii" rows="3"
-                                                                        ></textarea>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="col awb-info">
-                                                                <div class="section-title">OPTIUNI</div>
-                                                                <div class="form-row">
-                                                                    <div class="form-group col-md-2 fs-14">
-                                                                        <label for="details_is_confirm">Confirmare de
-                                                                            primire:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-2">
-                                                                        <input type="checkbox"
-                                                                               class="form-control"
-                                                                               id="details_is_confirm"
-                                                                               name=""
-                                                                               value="1"
-                                                                        />
-                                                                    </div>
-
-                                                                    <div class="form-group col-md-2 fs-14">
-                                                                        <label for="details_refund_doc">Retur de
-                                                                            documente:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-2">
-                                                                        <input type="checkbox"
-                                                                               class="form-control"
-                                                                               id="details_refund_doc"
-                                                                               name=""
-                                                                               value="1"
-                                                                        />
+        <textarea type="text"
+                  class="form-control"
+                  id="details_observation"
+                  name=""
+                  value=""
+                  placeholder="Observatii" rows="3"
+        ></textarea>
                                                                     </div>
 
 
-                                                                </div>
-                                                                <div class="form-row">
-                                                                    <div class="form-group col-md-2 fs-14">
-                                                                        <label for="details_bo">Retur BO:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-2">
-                                                                        <input type="text"
-                                                                               class="form-control"
-                                                                               id="details_bo"
-                                                                               name=""
-                                                                               value=""/>
-                                                                    </div>
+                                                                    <div class="col awb-info">
+                                                                        <div class="section-title">OPTIUNI</div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col-md-2 fs-14">
+                                                                                <label for="details_is_confirm">Confirmare
+                                                                                    de
+                                                                                    primire:</label>
+                                                                            </div>
+                                                                            <div class="form-group col-md-2">
+                                                                                <input type="checkbox"
+                                                                                       class="form-control"
+                                                                                       id="details_is_confirm"
+                                                                                       name=""
+                                                                                       value="1"
+                                                                                />
+                                                                            </div>
 
-                                                                    <div class="form-group col-md-2 fs-14">
-                                                                        <label for="details_cec">CEC:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-2">
-                                                                        <input type="text"
-                                                                               class="form-control"
-                                                                               id="details_cec"
-                                                                               name=""
-                                                                               value=""/>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="section-title">CONTINUT</div>
-                                                                <div class="form-row">
-                                                                    <div class="form-group col-md-6 fs-14">
-                                                                        <label for="details_packageContent">Continut
-                                                                            Colet:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-6">
-                                                                        <input type="text"
-                                                                               class="form-control"
-                                                                               id="details_packageContent"
-                                                                               name=""
-                                                                               placeholder="continut"
-                                                                               value=""
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                                <div class="section-title">COST</div>
-                                                                <div class="form-row">
-                                                                    <div class="form-group col-md-6 fs-14">
-                                                                        <label for="details_shippingCost">Costul de
-                                                                            livrare:</label>
-                                                                    </div>
-                                                                    <div class="form-group col-md-6">
-                                                                        <input type="text"
-                                                                               class="form-control"
-                                                                               id="details_shippingCost"
-                                                                               name=""
-                                                                               placeholder=""
-                                                                               value=""
-                                                                               readonly/>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="container">
-                                                            <div class="row">
-                                                                <div class="col-md-6">
-                                                                    <input type="hidden" id="type_of_request"
-                                                                           value="generate">
-                                                                    <button class="btn-get-started" type="submit"
-                                                                            value="only_generate"
-                                                                            name="only_generate" id="generate_awb"
-                                                                            onclick="">Salveaza AWB
-                                                                    </button>
-                                                                    <button class="btn-get-started" type="submit"
-                                                                            value="generate_and_save"
-                                                                            name="generate_and_save"
-                                                                            id="generate_and_save"
-                                                                            onclick="">Salveaza Si Printeaza
-                                                                    </button>
-                                                                </div>
+                                                                            <div class="form-group col-md-2 fs-14">
+                                                                                <label for="details_refund_doc">Retur de
+                                                                                    documente:</label>
+                                                                            </div>
+                                                                            <div class="form-group col-md-2">
+                                                                                <input type="checkbox"
+                                                                                       class="form-control"
+                                                                                       id="details_refund_doc"
+                                                                                       name=""
+                                                                                       value="1"
+                                                                                />
+                                                                            </div>
 
 
-                                                                <div class="col-md-6" style="color: #FFFFFF;">
-                                                                    <div class="container">
-                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                Borderouri: <span></span>
+                                                                        </div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col-md-2 fs-14">
+                                                                                <label for="details_bo">Retur
+                                                                                    BO:</label>
+                                                                            </div>
+                                                                            <div class="form-group col-md-2">
+                                                                                <input type="text"
+                                                                                       class="form-control"
+                                                                                       id="details_bo"
+                                                                                       name=""
+                                                                                       value=""/>
+                                                                            </div>
+
+                                                                            <div class="form-group col-md-2 fs-14">
+                                                                                <label for="details_cec">CEC:</label>
+                                                                            </div>
+                                                                            <div class="form-group col-md-2">
+                                                                                <input type="text"
+                                                                                       class="form-control"
+                                                                                       id="details_cec"
+                                                                                       name=""
+                                                                                       value=""/>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row">
-                                                                            <div class="col-md-3">
-                                                                                <input type="text" class="form-control"
-                                                                                       name="" id="" placeholder="0"
-                                                                                       value="}" required=""
-                                                                                       style="margin: 25px 0 0 0;"
-                                                                                       readonly>
+
+                                                                        <div class="section-title">CONTINUT</div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col-md-6 fs-14">
+                                                                                <label for="details_packageContent">Continut
+                                                                                    Colet:</label>
                                                                             </div>
-                                                                            <div class="col-md-3">
-                                                                                <a class="nav-link"
-                                                                                   id="account-details-tab"
-                                                                                   href="">
-                                                                                    <button type="button"
-                                                                                            class="btn-get-started">
-                                                                                        Finalizeaza Borderou
-                                                                                    </button>
-                                                                                </a>
+                                                                            <div class="form-group col-md-6">
+                                                                                <input type="text"
+                                                                                       class="form-control"
+                                                                                       id="details_packageContent"
+                                                                                       name=""
+                                                                                       placeholder="continut"
+                                                                                       value=""
+                                                                                />
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="section-title">COST</div>
+                                                                        <div class="form-row">
+                                                                            <div class="form-group col-md-6 fs-14">
+                                                                                <label for="details_shippingCost">Costul
+                                                                                    de
+                                                                                    livrare:</label>
+                                                                            </div>
+                                                                            <div class="form-group col-md-6">
+                                                                                <input type="text"
+                                                                                       class="form-control"
+                                                                                       id="details_shippingCost"
+                                                                                       name=""
+                                                                                       placeholder=""
+                                                                                       value=""
+                                                                                       readonly/>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+                                                                <!--End Observation-->
+
+                                                                <!--Begin Action-->
+                                                                <div class="form-row">
+                                                                    <div class="row">
+                                                                        <div class="col-md-6">
+                                                                            <input type="hidden" id="type_of_request"
+                                                                                   value="generate">
+                                                                            <button class="btn-get-started"
+                                                                                    type="submit"
+                                                                                    value="only_generate"
+                                                                                    name="only_generate"
+                                                                                    id="generate_awb"
+                                                                                    onclick="">Salveaza AWB
+                                                                            </button>
+                                                                            <button class="btn-get-started"
+                                                                                    type="submit"
+                                                                                    value="generate_and_save"
+                                                                                    name="generate_and_save"
+                                                                                    id="generate_and_save"
+                                                                                    onclick="">Salveaza Si Printeaza
+                                                                            </button>
+                                                                        </div>
+
+
+                                                                        <div class="col-md-6" style="color: #FFFFFF;">
+                                                                            <div class="container">
+                                                                                <div class="row">
+                                                                                    <div class="col-md-6">
+                                                                                        Borderouri: <span></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col-md-3">
+                                                                                        <input type="text"
+                                                                                               class="form-control"
+                                                                                               name="" id=""
+                                                                                               placeholder="0"
+                                                                                               value="}" required=""
+                                                                                               style="margin: 25px 0 0 0;"
+                                                                                               readonly>
+                                                                                    </div>
+                                                                                    <div class="col-md-3">
+                                                                                        <a class="nav-link"
+                                                                                           id="account-details-tab"
+                                                                                           href="">
+                                                                                            <button type="button"
+                                                                                                    class="btn-get-started">
+                                                                                                Finalizeaza Borderou
+                                                                                            </button>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!--\.End Action-->
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -740,7 +763,8 @@
                                             <p class="description">
                                                 Pentru importa lista AWB-uri...
                                             </p>
-                                            <a href="{{ route('page.import_list_awb') }}" class="btn-get-started black">Import Lista AWB</a>
+                                            <a href="{{ route('page.import_list_awb') }}" class="btn-get-started black">Import
+                                                Lista AWB</a>
                                         </div>
                                         <div class="col-lg-6 d-flex justify-flex-end">
                                             <img
@@ -770,7 +794,8 @@
                                             <p class="description">
                                                 Pentru a urmari lista de destinatari interni...
                                             </p>
-                                            <a href="{{ route('page.receiver_internal_list') }}" class="btn-get-started black">Destinatari interni</a>
+                                            <a href="{{ route('page.receiver_internal_list') }}"
+                                               class="btn-get-started black">Destinatari interni</a>
                                         </div>
                                     </div>
                                 </div>
@@ -787,7 +812,8 @@
                                             <p class="description">
                                                 Pentru a urmari lista de destinatari externi...
                                             </p>
-                                            <a href="{{ route('page.receiver_external_list') }}" class="btn-get-started black">Destinatari externi</a>
+                                            <a href="{{ route('page.receiver_external_list') }}"
+                                               class="btn-get-started black">Destinatari externi</a>
                                         </div>
                                         <div class="col-lg-6 d-flex justify-flex-end">
                                             <img
