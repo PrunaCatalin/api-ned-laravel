@@ -4,421 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf1e1f5-7bbc-4902-9414-731aa52af3f9" name="Changes" comment="alte cacaturi">
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerAccountStatus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerAccountType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Auth/TenantAuthController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Customer/CustomerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Location/location.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Middleware/CheckSanctumAuthenticationMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Requests/TenantLoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Routes/customer/customer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Routes/location/location.php" afterDir="false" />
+    <list default="true" id="fbf1e1f5-7bbc-4902-9414-731aa52af3f9" name="Changes" comment="tema noua">
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Awb/AwbController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Location/LocationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Requests/Awb/AwbListRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Requests/Awb/AwbRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Routes/awb/awb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/Tenants/Services/Awb/AwbService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e4f74a8-5f64-4dfc-890b-50bc77f232d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e4f74a8-5f64-4dfc-890b-50bc77f232d3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RevAppConfig.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RevAppMenu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RevMemberRoles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RevPayments.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/RevRoles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/GenerateCategoriesFresciaCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/GoogleTrafficCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/ImportFrescia.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/ImportNutritie.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/OcrCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/ParallelRequestsCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/TestCrawlerCommand.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Stream/StreamController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Jobs/ImportPlayersJob.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ApplicationLinks/WdApplicationLinks.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Web/TablePrice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Web/TablePriceContractCustom.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Observers/AclModuleObserver.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Config/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/RecoverData/RecoverDataService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Console/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Database/Migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Database/Seeders/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmationFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Database/Seeders/NedCurierDatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Database/factories/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Emails/ResetPasswordMail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbConfirmation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbConfirmationFile.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbDetails.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbReceiver.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbReceiver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbSender.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbSlip.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSlip.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbStatus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Awb/CAwbStatusHistory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Company/CompanyDetails.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerAccount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerAccountAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerAccountAddress.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerAccountStatus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerAccountType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerCompanyContact.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerCompanyContact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerCompanyDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerCompanyDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerContactDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerContactDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerContract.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerContract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerContractDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerContractDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerImages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerSession.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerSession.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Customer/CustomerTax.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/CustomerTax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/CustomerAccounts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Employee/EmployeeAccount.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Employee/EmployeeConfirmation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Employee/EmployeeDetails.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Employee/EmployeeOrders.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Employee/EmployeeTitle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Location/GenericCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Location/GenericCity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Location/GenericCountry.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Location/GenericCountry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Location/GenericCounty.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Location/GenericCounty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Location/GenericZone.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Location/GenericZone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Price/GenericCurrency.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/GenericCurrency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Price/TablePrice.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Price/TablePriceContractCustom.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Entities/Transaction/TransactionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatusHistory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/CookieController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/NedCurierController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/NumeFolder/NumeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/AboutCookieController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/AboutUsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ImportListAwbController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ListAwbController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ListPriceController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ListSlipController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ReceiverExternalListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Awb/ReceiverInternalListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/AwbTrackingController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/CargoDeliveryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/CompetitivePricesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/ContactController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/CostEstimateController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Customer/AccountDetailsListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Customer/ReceiverActionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Customer/ReceiverCustomerListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Customer/SenderActionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/Customer/SenderCustomerListController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/FastDeliveryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/FirstStepsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/FrequentQuestionsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/GenerateAwbController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/HomePageClientController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/LogisticsServicesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/PackingTipsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/PersonalizedServicesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/PrivacyPolicyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/ShipAndWInPrizesController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/ShipmentTrackingController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/SpeedAndEfficiencyController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Controllers/Pages/TermsAndConditionsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Middleware/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Company/CompanyDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Middleware/CheckCustomer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Middleware/EnsureIsAjaxRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Requests/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeAccount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Requests/AboutUsRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Requests/Awb/AwbListRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Http/Requests/Awb/AwbRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Providers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeConfirmation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Providers/NedCurierServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeOrders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeTitle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/lang/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePrice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePriceContractCustom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/components/footer.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/components/header.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/components/pagination.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/layouts/master.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/about-cookie.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/about-us.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/account-details.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/awb-tracking.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/cargo-delivery.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/competitive-prices.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/contact.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/cost-estimate.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/edit-receiver.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/edit-sender.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/fast-delivery.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/first-steps.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/frequent-questions.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/generate-awb.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/home-page-client.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/homepage.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/import-list-awb.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/insert-receiver.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/insert-sender.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/list-awb.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/list-price.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/list-slip.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/logistics-services.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/packing-tips.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/personalized-services.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/privacy-policy.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/receiver-customer-list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/receiver-external-list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/receiver-internal-list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/sender-customer-list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/ship-and-win-prizes.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/shipment-tracking.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/speed-and-efficiency.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/terms-and-conditions.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Resources/views/pages/test.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Routes/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Transaction/TransactionService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Routes/pages/pages.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Services/Awb/AwbService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Tests/Feature/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Http/Middleware/ForceJsonResponse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/Tests/Unit/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/module.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/NedCurier/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Auth/CustomerAuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwb.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmationFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmationFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbReceiver.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbReceiver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSender.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSender.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatusHistory.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatusHistory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Company/CompanyDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Company/CompanyDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeConfirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeConfirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeDetails.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeOrders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeTitle.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeTitle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePrice.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePrice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePriceContractCustom.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePriceContractCustom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Transaction/TransactionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Transaction/TransactionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Location/location.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Providers/TenantsServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Providers/TenantsServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Routes/customer/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Routes/customer/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Routes/customer/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Routes/customer/common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules_statuses.json" beforeDir="false" afterPath="$PROJECT_DIR$/modules_statuses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Account_components_AccountComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Acl_components_AclComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_Actions_ConfigAclAddOperationComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclGroupComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclGroupPermissionComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1320.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue-_e1321.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclPermissionRoleComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a50.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue-_91a51.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_ConfigAclRoleComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_CpanelAclGroupComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigAcl_CpanelAclRoleComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_ConfigSidebar_ConfigSidebarComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Cpanel_components_CpanelComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Configuration_ConfigurationComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Import_components_Players_PlayersComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/resources_js_modules_Test_components_TestComponent_vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap-icons/bootstrap-icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/animations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/animations.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/animations.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/transformations.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/transformations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/transformations.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/boxicons/css/transformations.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/components/swiper/swiper-bundle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/components/swiper/swiper-bundle.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/css/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/fonts/boxicons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/Ana_M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/Ana_M.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/agrafa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/agrafa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/alexandru.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/alexandru.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/ambalare.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ambalare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/ana.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ana.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/anpc-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/anpc-img.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/appel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/appel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/bicicleta.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/bicicleta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/box.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/box.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/cerc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cerc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/chitanta.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/chitanta.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/clopotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/clopotel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/cont-client-li.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cont-client-li.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/cookies.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/cookies.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/curierat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/curierat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/destinatari-li.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/destinatari-li.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/expeditori-li.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/expeditori-li.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook-logo-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook-logo-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/facebook.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/globe-track-awb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/globe-track-awb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/google-logo-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/google-logo-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/google.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/google.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/hero-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/log-in-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/log-in-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo-footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo-footer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-sign.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/ned-sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/premii.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/premii.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/preturi competitive.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/preturi competitive.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/preview 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/preview 3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/rapiditate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/rapiditate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/roata.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/roata.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/search-awb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/search-awb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/servicii.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/servicii.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/sol-img.webp" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/sol-img.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/team/team-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/testimonials/testimonials-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/truck.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/truck.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/user-big.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/user-big.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/glightbox/js/glightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/glightbox/js/glightbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/glightbox/js/glightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/glightbox/js/glightbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/isotope-layout/isotope.pkgd.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/isotope-layout/isotope.pkgd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/isotope-layout/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/php-email-form/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/php-email-form/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/purecounter/purecounter_vanilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/purecounter/purecounter_vanilla.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/purecounter/purecounter_vanilla.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/purecounter/purecounter_vanilla.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/swiper/swiper-bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/swiper/swiper-bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/components/swiper/swiper-bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/components/swiper/swiper-bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDAxios.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDAxios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDLog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDPagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDPagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDRequest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/core/WDUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modules/nedcurier/js/example.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/modules/nedcurier/js/example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/DashboardComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/HeaderComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/SideBarComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/config/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/hooks/axios.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/hooks/notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/components/AccountComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/components/Profile/ProfileComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/service/AccountService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Account/store/AccountStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/components/ForgotComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/components/LoginComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/components/ResetComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/components/SalesforceLoginComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/service/AuthService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Auth/store/AuthStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/ConfigAclComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/ConfigAclPermissionRoleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/ConfigAclRoleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/Popups/ConfigAclPermissionRoleStorePopup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/Popups/ConfigAclRoleStorePopup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigAcl/Search/ConfigAclRoleSearchComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/ConfigSidebar/ConfigSidebarComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/components/CpanelComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/service/CpanelAclRoleService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/service/CpanelService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/store/CpanelAclRoleStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Cpanel/store/CpanelStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/components/Configuration/ConfigurationComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/components/ImportComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/components/Players/PlayersComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/service/ImportService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Import/store/ImportStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/Actions/CreateUserComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/Popups/SalesforceCloneComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/SalesforceListComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/Search/SalesforceListSearchComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/Search/UserListSearchComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/UserListComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/components/UsersComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/service/SalesforceService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/service/UserService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/store/UserStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/Users/store/UserStoreStorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/modules/auth.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/LayoutPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/LoginPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/NestedDND.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/plugins/WDPopupConfirmation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/register-modules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/Common/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/Users/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/services/Users/AuthService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/services/Users/SalesforceService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/services/Users/UserService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/services/auth.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/services/stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/common.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/customer/common.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/eventstream/eventstream.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/tenant.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Routes/location/location.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Routes/location/location.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -618,39 +233,38 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/htdocs/api-ned/public/modules/nedcurier/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/htdocs/api-ned/modules/Tenants/Services",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\htdocs\api-ned\modules\Tenants\Services" />
       <recent name="D:\htdocs\api-ned\public\modules\nedcurier\img" />
       <recent name="D:\htdocs\api-ned\modules\NedCurier" />
       <recent name="D:\htdocs\api-ned\public\fonts" />
       <recent name="D:\htdocs\api-ned\public\modules\nedcurier\css\components\bootstrap-icons" />
-      <recent name="D:\htdocs\api-ned\public\modules\nedcurier\css\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\htdocs\api-ned\public\modules\nedcurier\fonts" />
@@ -683,6 +297,7 @@
       <workItem from="1688019335418" duration="23157000" />
       <workItem from="1688110250883" duration="7876000" />
       <workItem from="1689144556115" duration="918000" />
+      <workItem from="1689145643379" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="alte cacaturi">
       <created>1687887783884</created>
@@ -708,6 +323,7 @@
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="05e28aa9-78c3-4e42-b507-a1d4668b383c" value="TOOL_WINDOW" />
+        <entry key="864fb9b9-557f-4844-8e92-e54f950e186e" value="TOOL_WINDOW" />
         <entry key="cac8e072-4927-46b1-a12c-860777c6f33a" value="TOOL_WINDOW" />
       </map>
     </option>
@@ -729,6 +345,31 @@
                     <value>
                       <list>
                         <option value="dir:J:/Projects/GIT/api-ned/modules/Tenants/Http/Requests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="864fb9b9-557f-4844-8e92-e54f950e186e">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/htdocs/api-ned/modules/Tenants/Entities" />
                       </list>
                     </value>
                   </entry>

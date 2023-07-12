@@ -83,6 +83,7 @@ class RouteServiceProvider extends ServiceProvider
                 ->group(function () {
                     require module_path('Tenants','Routes/api.php');
                     require module_path('Tenants','Routes/customer/customer.php');
+                    require module_path('Tenants','Routes/awb/awb.php');
                 });
         }
     }

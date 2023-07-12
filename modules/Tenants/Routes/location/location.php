@@ -14,3 +14,8 @@
  * 7/11/2023 | CATALIN PRUNA | Initial version
  *
  */
+use Modules\Tenants\Http\Controllers\Location\LocationController;
+
+Route::group(['prefix' => 'location'], function(){
+    Route::post('get-counties' , [LocationController::class , 'getCounties'])->name('customer.account.details');
+});
