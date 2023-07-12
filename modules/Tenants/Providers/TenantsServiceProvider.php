@@ -4,6 +4,7 @@ namespace Modules\Tenants\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
+use Modules\Tenants\Http\Middleware\ForceJsonResponse;
 
 class TenantsServiceProvider extends ServiceProvider
 {
@@ -24,6 +25,7 @@ class TenantsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();

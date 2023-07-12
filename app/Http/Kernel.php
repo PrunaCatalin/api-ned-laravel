@@ -21,8 +21,8 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-//        \App\Http\Middleware\ForceJsonResponse::class,
-        \App\Http\Middleware\Cors::class,
+        \App\Http\Middleware\ForceJsonResponse::class,
+        \App\Http\Middleware\Cors::class
 
     ];
 
@@ -38,13 +38,13 @@ class Kernel extends HttpKernel
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class
         ],
 
         'api' => [
              \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
             'throttle:60,1',
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class
         ],
     ];
 
@@ -70,7 +70,5 @@ class Kernel extends HttpKernel
         'cors' => \App\Http\Middleware\Cors::class,
         'json.force' => \App\Http\Middleware\JsonResponseMiddleware::class,
         'checkRole' => \App\Http\Middleware\CheckRoleMiddleware::class,
-        'auth.customer' =>  \Modules\NedCurier\Http\Middleware\CheckCustomer::class,
-        'ajax' => \Modules\NedCurier\Http\Middleware\EnsureIsAjaxRequest::class,
     ];
 }

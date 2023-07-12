@@ -8,6 +8,12 @@
  * Created on : 6/16/2023 4:21 PM
 */
 use Illuminate\Support\Facades\Route;
+use Modules\Tenants\Http\Controllers\Auth\TenantAuthController;
+
+Route::get('test', function () {
+    return response()->json(['gara']);
+})->name("tenants.test");
+
 
 
 //Route::group(['prefix' => 'v1'], function () {

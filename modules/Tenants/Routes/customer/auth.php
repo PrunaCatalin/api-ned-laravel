@@ -15,11 +15,8 @@
  *
  */
 
-use Modules\Tenants\Http\Controllers\TenantsController;
+use Modules\Tenants\Http\Controllers\Auth\TenantAuthController;
 
-Route::group(['prefix' => 'api'], function () {
-    Route::group(['prefix' => 'v1'], function () {
-        //names are mandatory
-        Route::post('login', [TenantsController::class, 'view'])->name('api.customer.login');
-    });
-});
+Route::post('login', [TenantAuthController::class, 'login'])->name('tenants.action.login');
+Route::get('logout', [TenantAuthController::class, 'logout'])->name('tenants.action.logout');
+

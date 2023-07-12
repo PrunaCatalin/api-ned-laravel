@@ -2,8 +2,10 @@
 
 namespace Modules\Tenants\Providers;
 
+use App\Http\Middleware\ForceJsonResponse;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Modules\Tenants\Http\Middleware\CheckSanctumAuthenticationMiddleware;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -24,6 +26,8 @@ class RouteServiceProvider extends ServiceProvider
     public function boot()
     {
         parent::boot();
+        $this->app['router']->aliasMiddleware('forceJson', ForceJsonResponse::class);
+        $this->app['router']->aliasMiddleware('authTenants', CheckSanctumAuthenticationMiddleware::class);
     }
 
     /**
@@ -35,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->mapApiRoutes();
 
-        $this->mapWebRoutes();
+       // $this->mapWebRoutes();
     }
 
     /**
@@ -62,12 +66,23 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         foreach ($this->centralDomains() as $domain) {
-            Route::prefix('api')
+            Route::middleware(['forceJson'])
+                ->prefix('api')
                 ->domain($domain)
                 ->namespace($this->moduleNamespace)
                 ->group(function () {
-                    require base_path('routes/api.php');
-                    require base_path('routes/customer/common.php');
+                    require module_path('Tenants','Routes/customer/auth.php');
+                    require module_path('Tenants','Routes/customer/common.php');
+                    require module_path('Tenants','Routes/location/location.php');
+                });
+            //Only Auth Users
+            Route::middleware(['authTenants','forceJson'])
+                ->prefix('api')
+                ->domain($domain)
+                ->namespace($this->moduleNamespace)
+                ->group(function () {
+                    require module_path('Tenants','Routes/api.php');
+                    require module_path('Tenants','Routes/customer/customer.php');
                 });
         }
     }

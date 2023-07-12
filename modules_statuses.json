@@ -1,4 +1,3 @@
 {
-    "Tenants": false,
-    "NedCurier": true
+    "Tenants": true
 }
