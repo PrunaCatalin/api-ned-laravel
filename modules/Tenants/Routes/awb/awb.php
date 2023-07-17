@@ -12,5 +12,7 @@
 use Modules\Tenants\Http\Controllers\Awb\AwbController;
 
 Route::group(['prefix' => 'awb'], function(){
-    Route::post('awb-list' , [AwbController::class , 'getAwbList'])->name('awb.get_awb_list');
+    Route::get('awb-list' , [AwbController::class , 'getAwbList'])->name('awb.get_awb_list');
+    Route::post('awb-list' , [AwbController::class , 'getAwbList'])->name('awb.post_awb_list');
 });
+

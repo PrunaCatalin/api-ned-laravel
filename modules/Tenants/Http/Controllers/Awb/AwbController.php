@@ -20,6 +20,10 @@ class AwbController extends Controller
     {
         $request->id_customer = auth('sanctum')->user()->id;
         $awbList = (new AwbService())->getAwbList($request);
-
+        return response()->json([
+            'status' => true,
+            'message' =>"Success",
+            "awbList" => $awbList
+        ]);
     }
 }
