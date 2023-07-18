@@ -23,7 +23,7 @@ class AwbController extends Controller
         return response()->json([
             'status' => true,
             'message' =>"Success",
-            "awbList" => $awbList
+            "list" => $awbList
         ]);
     }
 }

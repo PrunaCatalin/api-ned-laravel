@@ -15,6 +15,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 use Modules\Tenants\Entities\Customer\CustomerAccount;
 use Modules\Tenants\Entities\Customer\Customer;
@@ -40,6 +41,7 @@ class TenantAuthController extends Controller
             if (Hash::check($request->password, $user->password)) {
                 $user->tokens()->where('tokenable_id', $user->id)->delete(); // cleanup old tokens
                 $user->token = $user->createAuthToken('WD-Auth')->plainTextToken;
+
                 return response()->json([
                     'status' => true,
                     'message' =>"Login Success",
@@ -57,7 +59,7 @@ class TenantAuthController extends Controller
 
     public function logout()
     {
-        Auth::guard('sanctum')->logout();
+        auth('sanctum')->user()->currentAccessToken()->delete();
         return response()->json([
             'status' => true,
             'message' =>"Logout Success"
