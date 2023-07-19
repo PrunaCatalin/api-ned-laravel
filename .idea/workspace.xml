@@ -5,35 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf1e1f5-7bbc-4902-9414-731aa52af3f9" name="Changes" comment="tema noua">
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Awb/AwbController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Location/LocationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Requests/Awb/AwbListRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Http/Requests/Awb/AwbRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Routes/awb/awb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/Tenants/Services/Awb/AwbService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e4f74a8-5f64-4dfc-890b-50bc77f232d3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7e4f74a8-5f64-4dfc-890b-50bc77f232d3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwb.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwb.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmationFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbConfirmationFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbReceiver.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbReceiver.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSender.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbSender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatusHistory.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Awb/CAwbStatusHistory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Company/CompanyDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Company/CompanyDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Customer/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeAccount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeConfirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeConfirmation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeOrders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeTitle.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Employee/EmployeeTitle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePrice.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePrice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePriceContractCustom.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Price/TablePriceContractCustom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Entities/Transaction/TransactionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Entities/Transaction/TransactionService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Location/location.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Tenants/Routes/location/location.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Routes/location/location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Auth/TenantAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Auth/TenantAuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Awb/AwbController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Tenants/Http/Controllers/Awb/AwbController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,28 +213,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/htdocs/api-ned/modules/Tenants/Services",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/htdocs/api-ned/modules/Tenants/Services&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\htdocs\api-ned\modules\Tenants\Services" />
@@ -298,6 +275,8 @@
       <workItem from="1688110250883" duration="7876000" />
       <workItem from="1689144556115" duration="918000" />
       <workItem from="1689145643379" duration="1620000" />
+      <workItem from="1689228650923" duration="1673000" />
+      <workItem from="1689577072084" duration="7870000" />
     </task>
     <task id="LOCAL-00001" summary="alte cacaturi">
       <created>1687887783884</created>

@@ -12,15 +12,10 @@ namespace Modules\Tenants\Http\Controllers\Awb;
 
 use App\Http\Controllers\Controller;
 use Modules\Tenants\Http\Requests\Awb\AwbListRequest;
-use Modules\Tenants\Http\Requests\Awb\AwbRequest;
 use Modules\Tenants\Services\Awb\AwbService;
 
 class AwbController extends Controller
 {
-    /**
-     * @param AwbListRequest|null $request
-     * @return \Illuminate\Http\JsonResponse
-     */
     public function getAwbList(?AwbListRequest $request)
     {
         $request->id_customer = auth('sanctum')->user()->id;
@@ -28,21 +23,7 @@ class AwbController extends Controller
         return response()->json([
             'status' => true,
             'message' =>"Success",
-            "list" => $awbList
-        ]);
-    }
-
-    /**
-     * @param AwbRequest|null $request
-     * @return \Illuminate\Http\JsonResponse
-     */
-    public function getAwb(?AwbRequest $request) {
-        $request->id_customer = auth('sanctum')->user()->id;
-        $awb = (new AwbService())->getAwb($request);
-        return response()->json([
-            'status' => true,
-            'message' =>"Success",
-            "listAwb" => $awb
+            "awbList" => $awbList
         ]);
     }
 }
