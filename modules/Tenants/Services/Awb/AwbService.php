@@ -45,7 +45,7 @@ class AwbService
     }
 
     public function getAwb(AwbRequest $request) {
-        return  $awbList = CAwb::with([
+        return CAwb::with([
             'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory',
             'customer'
         ])->where(function($q) use ($request){
