@@ -18,7 +18,9 @@ class GenericCity extends Model
         'name',
         'region',
     ];
-
+	public function zones(){
+        return $this->hasMany(GenericZone::class , 'id_city');
+    }
     // Relație către tabela "generic_county"
     public function county()
     {

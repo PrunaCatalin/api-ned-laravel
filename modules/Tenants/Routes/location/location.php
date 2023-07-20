@@ -17,5 +17,6 @@
 use Modules\Tenants\Http\Controllers\Location\LocationController;
 
 Route::group(['prefix' => 'location'], function(){
-    Route::post('get-counties' , [LocationController::class , 'getCounties'])->name('customer.account.details');
+    Route::post('get-counties' , [LocationController::class , 'getCounties'])->name('location.get.counties');
+    Route::post('get-cities' , [LocationController::class , 'getCities'])->name('location.get.cities');
 });
