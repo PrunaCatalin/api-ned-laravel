@@ -4,6 +4,7 @@ namespace Modules\Tenants\Entities\Awb;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Modules\Tenants\Entities\Customer\CustomerDetails;
 use Modules\Tenants\Entities\Location\GenericCity;
 use Modules\Tenants\Entities\Location\GenericCounty;
 
@@ -36,5 +37,10 @@ class CAwbSender extends Model
     public function city()
     {
         return $this->belongsTo(GenericCity::class, 'id_city');
+    }
+
+    public function sender()
+    {
+       return $this->belongsTo(CustomerDetails::class , 'id_customer');
     }
 }

@@ -5,6 +5,7 @@ namespace Modules\Tenants\Entities\Awb;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Modules\Tenants\Entities\Customer\CustomerAccount;
+use Modules\Tenants\Entities\Customer\CustomerDetails;
 use Modules\Tenants\Entities\Employee\EmployeeAccount;
 use Modules\Tenants\Entities\Employee\EmployeeOrders;
 
@@ -57,6 +58,14 @@ class CAwb extends Model
         return $this->hasMany(EmployeeOrders::class, 'id_awb');
     }
 
+    public function receiver()
+    {
+        return $this->hasOne(CAwbReceiver::class , 'id_customer', 'id_customer');
+    }
 
+    public function sender()
+    {
+        return $this->hasOne(CAwbSender::class , 'id_customer', 'id_customer');
+    }
 
 }

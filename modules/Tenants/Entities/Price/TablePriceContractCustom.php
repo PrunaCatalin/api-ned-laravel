@@ -9,5 +9,21 @@ class TablePriceContractCustom extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
+    protected $table = 'table_price_contract_custom';
+
+    protected $fillable = [
+        'id',
+        'id_price_type',
+        'id_customer',
+        'amount',
+        'created_by',
+        'created_at',
+        'deleted_at',
+        'updated_at'
+    ];
+
+    public function price()
+    {
+        return $this->belongsTo(TablePrice::class , 'id_price_type', 'id');
+    }
 }

@@ -27,7 +27,7 @@ class AwbService
         }
         $awbList = CAwb::with([
             'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory',
-            'customer.details'
+            'customer.details', 'receiver', 'sender'
         ])->whereHas('customer' , function($q) use ($request) {
             if($request->has('id_customer')) {
                 $q->where("id" , $request->id_customer);
@@ -45,7 +45,7 @@ class AwbService
     }
 
     public function getAwb(AwbRequest $request) {
-        return  $awbList = CAwb::with([
+        return CAwb::with([
             'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory',
             'customer'
         ])->where(function($q) use ($request){
