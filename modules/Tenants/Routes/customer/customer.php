@@ -22,6 +22,10 @@ Route::group(['prefix' => 'customer'], function(){
     //sender
     Route::get('sender-customer-list' , [CustomerController::class , 'getSenderList'])->name('customer.get_sender_list');
     Route::post('sender-customer-list' , [CustomerController::class , 'getSenderList'])->name('customer.post_sender_list');
+
+    Route::get('sender-customer' , [CustomerController::class , 'Sender'])->name('customer.get_sender_customer');
+    Route::post('sender-customer' , [CustomerController::class , 'Sender'])->name('customer.get_sender_customer');
+
     //receiver
     Route::get('receiver-customer-list' , [CustomerController::class , 'getReceiverList'])->name('customer.get_receiver_list');
     Route::post('receiver-customer-list' , [CustomerController::class , 'getReceiverList'])->name('customer.post_receiver_list');
