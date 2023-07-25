@@ -17,5 +17,8 @@ Route::group(['prefix' => 'awb'], function(){
     //begin awb traking
     Route::get('awb-tracking' , [AwbController::class , 'getAwb'])->name('awb.get_awb_tracking');
     Route::post('awb-tracking' , [AwbController::class , 'getAwb'])->name('awb.post_awb_tracking');
+    //edit awb
+    Route::get('edit-awb' , [AwbController::class , 'getAwb'])->name('awb.get_edit_awb');
+    Route::post('edit-awb' , [AwbController::class , 'getAwb'])->name('awb.post_edit_awb');
 });
 

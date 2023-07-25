@@ -8,6 +8,8 @@ use Modules\Tenants\Entities\Customer\CustomerAccount;
 use Modules\Tenants\Entities\Customer\CustomerDetails;
 use Modules\Tenants\Entities\Employee\EmployeeAccount;
 use Modules\Tenants\Entities\Employee\EmployeeOrders;
+use Modules\Tenants\Entities\Location\GenericCity;
+use Modules\Tenants\Entities\Location\GenericCounty;
 
 class CAwb extends Model
 {

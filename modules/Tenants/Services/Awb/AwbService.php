@@ -25,7 +25,7 @@ class AwbService
         if ($request && $request->get('page')) {
             $page = $request->get('page');
         }
-        $awbList = CAwb::with([
+        return CAwb::with([
             'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory',
             'customer.details', 'receiver', 'sender'
         ])->whereHas('customer' , function($q) use ($request) {
@@ -40,14 +40,13 @@ class AwbService
             }
         })->orderBy('created_at', 'desc')
             ->paginate($perPage, '*', 'page', $page);
-
-        return $awbList;
     }
 
     public function getAwb(AwbRequest $request) {
         return CAwb::with([
-            'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory',
-            'customer'
+            'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory', 'customer',
+            'sender', 'sender.city', 'sender.city.zones',  'sender.county', 'sender.address',
+            'receiver', 'receiver.county', 'receiver.city', 'receiver.city.zones', 'receiver.address'
         ])->where(function($q) use ($request){
             if($request->has('id_awb')){
                 $q->where("id" , $request->id_awb);

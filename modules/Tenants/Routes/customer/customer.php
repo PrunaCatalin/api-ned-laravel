@@ -24,11 +24,15 @@ Route::group(['prefix' => 'customer'], function(){
     Route::post('sender-customer-list' , [CustomerController::class , 'getSenderList'])->name('customer.post_sender_list');
 
     Route::get('sender-customer' , [CustomerController::class , 'Sender'])->name('customer.get_sender_customer');
-    Route::post('sender-customer' , [CustomerController::class , 'Sender'])->name('customer.get_sender_customer');
+    Route::post('sender-customer' , [CustomerController::class , 'Sender'])->name('customer.post_sender_customer');
 
     //receiver
     Route::get('receiver-customer-list' , [CustomerController::class , 'getReceiverList'])->name('customer.get_receiver_list');
     Route::post('receiver-customer-list' , [CustomerController::class , 'getReceiverList'])->name('customer.post_receiver_list');
+
+    Route::get('receiver-customer' , [CustomerController::class , 'Receiver'])->name('customer.get_receiver_customer');
+    Route::post('receiver-customer' , [CustomerController::class , 'Receiver'])->name('customer.post_receiver_customer');
+
     //price
     Route::get('price-customer-list' , [CustomerController::class , 'getPriceList'])->name('customer.get_price_list');
     Route::post('price-customer-list' , [CustomerController::class , 'getPriceList'])->name('customer.post_price_list');

@@ -112,7 +112,7 @@ class CustomerController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function Sender(?Request $request) {
-        $sender = CAwbSender::with(['sender', 'county', 'city'])
+        $sender = CAwbSender::with(['sender', 'county', 'city', 'address'])
             ->where(['id' => $request->id])->first();
         return response()->json([
             'status' => true,
@@ -120,7 +120,12 @@ class CustomerController extends Controller
         ]);
     }
 
-    public function editSender() {
-
+    public function Receiver(?Request $request) {
+        $receiver = CAwbReceiver::with(['receiver', 'county', 'city', 'address'])
+            ->where(['id' => $request->id])->first();
+        return response()->json([
+            'status' => true,
+            'receiver' => $receiver,
+        ]);
     }
 }

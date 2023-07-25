@@ -45,4 +45,8 @@ class AwbController extends Controller
             "listAwb" => $awb
         ]);
     }
+
+    public function editAwb(?AwbRequest $request) {
+
+    }
 }

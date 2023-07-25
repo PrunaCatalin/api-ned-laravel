@@ -4,6 +4,7 @@ namespace Modules\Tenants\Entities\Awb;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Modules\Tenants\Entities\Customer\CustomerAccountAddress;
 use Modules\Tenants\Entities\Customer\CustomerDetails;
 use Modules\Tenants\Entities\Location\GenericCity;
 use Modules\Tenants\Entities\Location\GenericCounty;
@@ -37,5 +38,10 @@ class CAwbReceiver extends Model
     public function receiver()
     {
         return $this->belongsTo(CustomerDetails::class , 'id_customer');
+    }
+
+    public function address()
+    {
+        return $this->belongsTo(CustomerAccountAddress::class, 'id' ,'id_sender');
     }
 }
