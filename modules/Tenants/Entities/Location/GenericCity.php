@@ -29,7 +29,7 @@ class GenericCity extends Model
 
     public function cities()
     {
-        return $this->hasMany(GenericCity::class, 'id_county');
+        return $this->hasMany(GenericCity::class, 'id_county', 'id_county');
     }
 
 }

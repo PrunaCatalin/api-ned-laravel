@@ -10,12 +10,17 @@
 
 namespace Modules\Tenants\Services\Awb;
 
+use http\Env\Request;
 use Modules\Tenants\Entities\Awb\CAwb;
 use Modules\Tenants\Http\Requests\Awb\AwbListRequest;
 use Modules\Tenants\Http\Requests\Awb\AwbRequest;
 
 class AwbService
 {
+    /**
+     * @param AwbListRequest $request
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator
+     */
     public function getAwbList(AwbListRequest $request) {
         $perPage = 12;
         $page = 1;
@@ -42,11 +47,23 @@ class AwbService
             ->paginate($perPage, '*', 'page', $page);
     }
 
+    /**
+     * @param AwbRequest $request
+     * @return \Illuminate\Database\Eloquent\Builder|\Illuminate\Database\Eloquent\Model|object|null
+     */
     public function getAwb(AwbRequest $request) {
         return CAwb::with([
-            'details' , 'confirmation' , 'confirmationFiles' , 'statusHistory', 'customer',
-            'sender', 'sender.city', 'sender.city.zones',  'sender.county', 'sender.address',
-            'receiver', 'receiver.county', 'receiver.city', 'receiver.city.zones', 'receiver.address'
+            'service', 'details', 'confirmation' , 'confirmationFiles' , 'statusHistory', 'customer',
+            'sender',
+            'sender.city',
+            'sender.city.zones',
+            'sender.county',
+            'sender.address',
+            'receiver',
+            'receiver.county',
+            'receiver.city',
+            'receiver.city.zones',
+            'receiver.address'
         ])->where(function($q) use ($request){
             if($request->has('id_awb')){
                 $q->where("id" , $request->id_awb);
@@ -54,5 +71,11 @@ class AwbService
                 $q->where("awb_number" , $request->awb_number);
             }
         })->first();
+    }
+
+    public function getServices(?Request $request) {
+        return CAwb::with([
+            'service'
+        ])->get();
     }
 }

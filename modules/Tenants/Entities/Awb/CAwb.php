@@ -10,6 +10,7 @@ use Modules\Tenants\Entities\Employee\EmployeeAccount;
 use Modules\Tenants\Entities\Employee\EmployeeOrders;
 use Modules\Tenants\Entities\Location\GenericCity;
 use Modules\Tenants\Entities\Location\GenericCounty;
+use Modules\Tenants\Entities\Transaction\TransactionService;
 
 class CAwb extends Model
 {
@@ -68,6 +69,11 @@ class CAwb extends Model
     public function sender()
     {
         return $this->hasOne(CAwbSender::class , 'id_customer', 'id_customer');
+    }
+
+    public function service()
+    {
+        return $this->belongsTo(TransactionService::class, 'id_service');
     }
 
 }

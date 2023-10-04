@@ -20,5 +20,8 @@ Route::group(['prefix' => 'awb'], function(){
     //edit awb
     Route::get('edit-awb' , [AwbController::class , 'getAwb'])->name('awb.get_edit_awb');
     Route::post('edit-awb' , [AwbController::class , 'getAwb'])->name('awb.post_edit_awb');
+
+    Route::post('update-awb' , [AwbController::class , 'update'])->name('awb.update_awb');
+    Route::get('get-services' , [AwbController::class , 'getServices'])->name('awb.get_services'); // get services
 });
 

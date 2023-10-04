@@ -32,6 +32,15 @@ class LocationController extends Controller
         ]);
     }
 
+    public function getAllCounties()
+    {
+        $counties = GenericCounty::all();
+        return response()->json([
+            'status' => true,
+            'listCounties' => $counties
+        ]);
+    }
+
     /**
      * @param GetCitiesRequest $request
      * @return JsonResponse
@@ -42,6 +51,15 @@ class LocationController extends Controller
         return response()->json([
             'status' => true,
             'cities' => $cities
+        ]);
+    }
+
+    public function getAllCities()
+    {
+        $cities = GenericCity::all();
+        return response()->json([
+            'status' => true,
+            'listCities' => $cities
         ]);
     }
 }
